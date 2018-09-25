@@ -1,0 +1,331 @@
+@import './lib/reset.css';
+@import './lib/borders.css';
+@import './lib/display.css';
+@import './lib/positioning.css';
+@import './lib/flexbox.css';
+@import './lib/align.css';
+@import './lib/spacing.css';
+@import './lib/buttons.css';
+@import './lib/forms.css';
+@import './lib/lists.css';
+@import './lib/typography.css';
+@import './lib/z-index.css';
+
+/* Nav */
+nav {
+  text-align: center;
+}
+nav > ul, nav > ul > ul {
+  display: flex;
+  justify-content: space-between;
+}
+nav > ul {
+  padding: 4px 16px;
+}
+li {
+  display: flex;
+  padding: 6px 8px;
+}
+a {
+  text-decoration: none;
+}
+
+li:hover { color: #888; transition: .2s; cursor: pointer; }
+
+.o-4 { opacity:0.4 }
+/*Colors*/
+.bg-light { background:#eaeef1 }
+.bg-white { background:#fff }
+.bg-black { background: #000 }
+
+/* Containers */
+.gutter { max-width: 30rem; margin:0 auto; padding: 0 1rem; }
+
+.wide-gutter { 
+  max-width: 60rem;
+  margin-right: auto; 
+  margin-left: auto; 
+  padding-left: 1rem; 
+  padding-right: 1rem; 
+}
+
+.mw-25 { min-width: 25%; }
+.mw-75 { min-width: 75%; }
+
+.h-25 { height: 20rem }
+
+.w-33 { width: 30%; margin-right: 1%; }
+
+.mh-20 { min-height: 20rem }
+
+.f-50 { flex: 1 0 auto; flex-basis: 40% }
+
+.red-sq { background: #e81a1a; width: 50px; height: 50px; }
+
+.sq { width: 50px; height: 50px; }
+
+.__res { width: 18rem; }
+
+.__res-img { 
+  height: 200px;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.__title { height: 3rem }
+
+.scroll { overflow: scroll }
+
+/* Form */
+input:checked + label {
+  background: #77e3ff
+}
+
+.card {
+  background: #fff;
+  min-width: 18rem;
+  padding: 1em;
+  box-shadow: 0px 7px 15px -10px #aaa;
+  border: 1px solid #fafafa;
+}
+
+.radio-shadow {
+  box-shadow: 0px 2px 10px -4px #9e9ea7;
+}
+
+/* Animation */
+.q1 {
+  z-index:3;
+  animation: q1 300ms ease-in;
+}
+
+.q2 {
+  transform: translate(-8em, 9em) scale(0.7);
+  filter: blur(1px);
+  opacity: 0.4;
+  z-index:2;
+  animation: q2 300ms ease-in;
+
+}
+
+.q3 { 
+  transform: translate(-16em, 18em) scale(0.3);
+  filter: blur(3px);
+  opacity: 0.2;
+  z-index:1;
+  animation: q3 300ms ease-in;
+
+}
+
+@keyframes q1 {
+  from { transform: translate(8em,-9em) scale(1.4); opacity: 0; }
+  to { transform: translate(0em, 0em) scale(1) }
+}
+@keyframes q2 {
+  from { transform: translate(0em,0em) }
+  to { transform: translate(-8em, 9em) scale(0.7) }
+}
+@keyframes q3 {
+  from { transform: translate(-8em, 9em) scale(0.7); }
+  to { transform: translate(-16em, 18em) scale(0.3); opacity: 0;
+  }
+}
+
+/* Spice Girls */
+.spice { height: 20rem;}
+
+.posh { 
+  background:url(/q/posh.jpg); 
+  background-size: contain; 
+  background-repeat: no-repeat; 
+  background-position: center; 
+}
+
+.baby {
+  background:url(/q/baby.jpg); 
+  background-size: contain; 
+  background-repeat: no-repeat; 
+  background-position: center; 
+}
+
+.scary { 
+  background:url(/q/scary.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.ginger { 
+  background:url(/q/ginger.jpg); 
+  background-size: contain; 
+  background-repeat: no-repeat; 
+  background-position: center; 
+}
+
+.sporty { 
+  background:url(/q/sporty.jpg); 
+  background-size: contain; 
+  background-repeat: no-repeat; 
+  background-position: center; 
+}
+
+/* Pimp */
+.taurus {
+  background:url(/p/taurus.jpg); 
+  background-size: contain; 
+  background-repeat: no-repeat; 
+  background-position: center; 
+}
+
+.bronco {
+  background:url(/p/bronco.jpg); 
+  background-size: contain; 
+  background-repeat: no-repeat; 
+  background-position: center; 
+}
+
+.aston {
+  background:url(/p/aston.jpg); 
+  background-size: contain; 
+  background-repeat: no-repeat; 
+  background-position: center; 
+}
+
+.wheel {
+  background:url(/p/wheel.png); 
+  background-size: contain; 
+  background-repeat: no-repeat; 
+  background-position: center; 
+}
+
+.sixty-nine {
+  background:url(/p/69.png); 
+  background-size: contain; 
+  background-repeat: no-repeat; 
+  background-position: center; 
+}
+
+.skate-wheel {
+  background:url(/p/skate-wheel.png); 
+  background-size: contain; 
+  background-repeat: no-repeat; 
+  background-position: center; 
+}
+
+.antenna {
+  background:url(/p/antenna.png); 
+  background-size: contain; 
+  background-repeat: no-repeat; 
+  background-position: center; 
+}
+
+.nuts {
+  background:url(/p/nuts.png); 
+  background-size: contain; 
+  background-repeat: no-repeat; 
+  background-position: center; 
+}
+
+/* Rorschach */
+.r1 {
+  background:url(/r/r1.jpg); 
+  background-size: contain; 
+  background-repeat: no-repeat; 
+  background-position: center; 
+}
+
+.r2 {
+  background:url(/r/r2.jpg); 
+  background-size: contain; 
+  background-repeat: no-repeat; 
+  background-position: center; 
+}
+
+.r3 {
+  background:url(/r/r3.jpg); 
+  background-size: contain; 
+  background-repeat: no-repeat; 
+  background-position: center; 
+}
+
+/* Email */
+.email {
+  background:url(/mail.jpg); 
+  margin: 0 auto 2rem auto;
+  min-width: 10rem;
+  min-height: 10rem;
+  background-size: contain; 
+  background-repeat: no-repeat; 
+  background-position: center; 
+}
+
+/* Analysis */
+.fav { 
+  float: right;
+  margin-top: 0.5em;
+  width: 28px;
+  height: 28px;
+  background:url('/heartf.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.unfav {
+  float: right;
+  margin-top: 0.5em;
+  width: 28px;
+  height: 28px;
+  background: url('/heart.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* Shame */
+.flickity-enabled:focus {
+  outline: none;
+}
+
+.flickity-prev-next-button.next {
+  float: right;
+  margin-top: 1rem;
+}
+
+.flickity-prev-next-button.previous {
+  margin-top: 1rem;
+}
+
+.flickity-button-icon {
+  width: 20px;
+  padding-top: 0.25rem;
+}
+
+.flickity-page-dots {
+  display: none;
+}
+
+/* Breakpoints */
+@media (max-width: 20em){
+  .xs-hide{ display:none !important }
+  .flickity-prev-next-button { display:none !important }
+  .mobile-button { position: fixed;  }
+}
+
+@media (min-width: 40em) and (max-width: 52em){
+  .sm-hide{ display:none !important }
+  .mobile-button { position: fixed;  }
+}
+
+@media (min-width: 52em) and (max-width: 64em){
+  .md-hide{ display:none !important }
+}
+
+@media (min-width: 64em){
+  .lg-hide{ display:none !important }
+}
+
+
+.verylong {
+  height: 2000px;
+}

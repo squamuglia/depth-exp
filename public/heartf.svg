@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="28px" height="28px" viewBox="0 0 89 75" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.1 (57501) - http://www.bohemiancoding.com/sketch -->
+    <title>heart</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Form---Question-flow-Copy-2" transform="translate(-632.000000, -779.000000)" fill="#FF0000" fill-rule="nonzero">
+            <g id="heart" transform="translate(632.000000, 779.000000)">
+                <path d="M44.503,74.5 C44.076,74.5 43.649,74.363 43.291,74.092 C43.106,73.951 24.568,59.791 7.8,43.022 C3.095,38.317 0.503,32.062 0.503,25.409 C0.503,18.756 3.095,12.5 7.8,7.795 C12.503,3.09 18.758,0.499 25.411,0.499 C32.064,0.499 38.32,3.09 43.024,7.795 C43.539,8.31 44.032,8.849 44.503,9.409 C44.973,8.848 45.465,8.309 45.981,7.795 C50.688,3.091 56.944,0.499 63.596,0.499 C70.25,0.499 76.504,3.09 81.207,7.795 C90.918,17.507 90.918,33.31 81.207,43.022 C64.439,59.792 45.9,73.952 45.715,74.092 C45.357,74.363 44.93,74.5 44.503,74.5 Z" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>
