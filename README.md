@@ -1,3 +1,3 @@
-Fridge Freud
+Depth Exp
 
-Fridge Freud is a React app that asks fun questions to create a unique psychological profile based on the big 5 personality traits: Openness, Conscientiousness, Extraversion, Agreeableness and Neuroticism.
+Taking Fridge Freud and reconfiguring it to test a concept
